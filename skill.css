@@ -22,7 +22,7 @@
     color: #222229;
     font-size: 3rem;
     padding: 1rem;
-    opacity: 0;
+    /* opacity: 0; */
     transform: translateY(-40%);
     transition: all 2s ease;
     will-change: transform, opacity;
@@ -34,6 +34,7 @@
 }
 
 .skills-box {
+    height: 47rem;
     border: 2px solid gray;
     border-radius: 20px;
     padding: 5px;
@@ -53,7 +54,7 @@
     margin-top: 1rem;
     margin-left: 2rem;
     transform: translateY(2em);
-    opacity: 0%;
+    /* opacity: 0%; */
     transition: transform 2s 0.25s cubic-bezier(0, 1, 0.3, 1),
                 opacity 0.3s 0.25s ease-out;
     will-change: transform, opacity;
@@ -81,7 +82,7 @@
     margin: auto;
     font-size: 1.5rem;
     transform: translateY(2em);
-    opacity: 0%;
+    /* opacity: 0%; */
     transition: transform 2s 0.25s cubic-bezier(0, 1, 0.3, 1),
                 opacity 0.3s 0.25s ease-out;
     will-change: transform, opacity;
@@ -104,18 +105,18 @@
 }
 
 #middle-line-logo {
-    opacity: 0%;
+    /* opacity: 0%; */
 }
 
 #left-side-logo {
-    transform: translateX(-10%);
-    opacity: 0%;
+    /* transform: translateX(-10%); */
+    /* opacity: 0%; */
 }
 
 #right-side-logo,
 #frontend-logo-name {
-    transform: translateX(10%);
-    opacity: 0%;
+    /* transform: translateX(10%); */
+    /* opacity: 0%; */
 }
 
 #right-side-logo.is-visible {
@@ -141,8 +142,8 @@
 
 
 .left-side-gear-icon {
-    transform: rotateZ(-45deg);
-    opacity: 0%;
+    /* transform: rotateZ(-45deg); */
+    /* opacity: 0%; */
     transition: all 1s ease;
     will-change: transform, opacity;
 }
